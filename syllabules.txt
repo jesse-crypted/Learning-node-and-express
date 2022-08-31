@@ -1,0 +1,82 @@
+Intro 00:00 
+Course Intro 00:52
+What Is Node 01:41
+Course Requirements 02:56
+Course Structure 04:16
+Browser Vs Server 04:59
+Install Node 07:50
+Repl 11:08
+Cli 13:27
+Source Code 19:07
+Globals 20:27
+Modules Setup 29:34
+First Module 32:46
+Alternative Syntax 45:32
+Mind Grenade 49:50
+Built-In Module Intro 53:47
+Os Module 56:31
+Path Module 1:04:13
+Fs Module (Sync) 1:10:06
+Fs Module (Async) 1:18:28
+Sync Vs Async 1:27:32
+Http Intro 1:34:29
+Http Module (Setup) 1:35:58
+Http Module (More Features) 1:40:53
+NPM Info 1:45:57
+NPM Command 1:50:19
+First Package 1:53:10
+Share Code 2:02:52
+Nodemon 2:09:04
+Uninstall 2:15:04
+Global Install 2:17:53
+Package-Lock.Json 2:23:22
+Important Topics Intro 2:25:56
+Event Loop 2:27:38
+Event Loop Slides 2:30:47
+Event Loop Code Examples 2:37:46
+Async Patterns - Blocking Code 2:47:07
+Async Patterns - Setup Promises 2:54:49
+Async Patterns - Refactor To Async 3:00:35
+Async Patterns - Node's Native Option 3:06:05
+Events Info 3:12:41
+Events Emitter - Code Example 3:14:44
+Events Emitter - Additional Info 3:18:37
+Events Emitter - Http Module Example 3:21:44
+Streams Intro 3:25:10
+Streams - Read File 3:26:18
+Streams - Additional Info 3:33:01
+Streams - Http Example 3:35:05
+End Of Node Tutorial Module 3:40:29
+HTTP Request/Response Cycle 3:40:46
+Http Messages 3:44:49
+Starter Project Install 3:55:52
+Starter Overview 3:57:59
+Http Basics 4:03:25
+Http - Headers 4:15:09
+Http - Request Object 4:24:50
+Http - Html File 4:32:00
+Http - App Example 4:37:20
+Express Info 4:48:02
+Express Basics 4:51:50
+Express - App Example 5:03:05
+Express - All Static 5:14:31
+API Vs SSR 5:18:13
+JSON Basics 5:24:07
+Params, Query String - Setup 5:32:40
+Route Params 5:39:13
+Params - Extra Info 5:48:25
+Query String 5:50:42
+Additional Params And Query String Info 6:07:31
+Middleware - Setup 6:10:46
+APP.USE 6:21:27
+Multiple Middleware Functions 6:28:31
+Additional Middleware Info 6:36:36
+Methods - GET 6:43:26
+Methods - POST 6:49:01
+Methods - POST (Form Example) 6:52:53
+Methods - POST (Javascript Example) 7:05:31
+Install Postman 7:21:22
+Methods - PUT 7:30:19
+Methods - DELETE 7:41:43
+Express Router - Setup 7:50:05
+Express Router - Controllers 8:05:36
