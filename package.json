@@ -1,0 +1,23 @@
+{
+  "name": "learning-node-and-express--backen",
+  "version": "1.0.0",
+  "description": "Files from Node builds",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesse-crypted/Learning-node-and-express.git"
+  },
+  "author": "Jesse Oluwadare",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jesse-crypted/Learning-node-and-express/issues"
+  },
+  "homepage": "https://github.com/jesse-crypted/Learning-node-and-express#readme",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "nodemon": "^2.0.19"
+  }
+}
