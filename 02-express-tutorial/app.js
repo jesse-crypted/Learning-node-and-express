@@ -1,35 +1,11 @@
-const http = require("http");
+const express = require('express');
+const app = express();
+const { products } = require('./data');
 
-const server = http.createServer((req, res) => {
-  const url = req.url;
-  switch (url) {
-    // home page
-    case "/":
-      res.writeHead(200, {
-        "content-type": "text/html",
-      });
-      res.end(`<h1>Home page</h1>`);
-      break;
-
-    // CONTACT Page
-    case "/contact":
-      res.writeHead(200, {
-        "content-type": "text/html",
-      });
-      res.end(`<h1>Contact page</h1>`);
-      break;
-
-    // 404 error
-    default:
-      res.writeHead(404, {
-        "content-type": "text/html",
-      });
-      res.end(`<h1>404 Error: Page not found 🐱‍🏍</h1>`);
-      break;
-  }
-});
-server.listen(5000, () => {
-  console.log(`server listening to port 5000 📢`);
+app.get('/', (req, res) => {
+  res.json(products);
 });
 
-//   console.log(req.method);
+app.listen(5000, () => {
+  console.log(`server is listened to`);
+});
